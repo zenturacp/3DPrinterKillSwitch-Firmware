@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <EEPROM.h>
-#include "main.h"
+#include "header.h"
 
 #define addr_bedMax 0
 #define addr_nozzleMax 2
