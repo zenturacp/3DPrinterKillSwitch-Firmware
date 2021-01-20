@@ -8,3 +8,5 @@ void blink();
 int readIntFromEEPROM(int address);
 void writeIntIntoEEPROM(int address, int number);
 void saveSettings();
+// LCD
+void drawLCD(int pageNumber, bool force = false);
